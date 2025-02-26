@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import SideNavigation from './sideNavigation/SideNavigation';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <SideNavigation />
+      </div>
     </div>
   );
 }
